@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hi_table" />
+
+        <Button
+            android:id="@+id/btnBye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bye_table" />
+
+        <Button
+            android:id="@+id/btnYo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yo_table" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/cricle_drawable"-->
+            <!--android:src="@drawable/ic_launcher_foreground" />-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_selector_save_change"
+            android:text="Save Changes"
+            android:textColor="#ff0" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <ToggleButton
+            android:id="@+id/tbtone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            style="@style/Widget.AppCompat.Button.Small"
+            />
+        <ToggleButton
+            android:id="@+id/tbttwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ButtonBar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

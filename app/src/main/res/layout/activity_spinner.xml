@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/tvname"
+        android:text="@string/name_hang_dien_thoai"
+        android:textSize="28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spnhangdienthoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+</LinearLayout>
